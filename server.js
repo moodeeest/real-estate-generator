@@ -45,13 +45,13 @@ app.post('/generate', upload.single('image'), async (req, res) => {
       `<svg width="${width}" height="${height}">
         <style>
           .title { fill: white; font-size: 100px; font-family: Times New Roman; }
-          .subtitle { fill: white; font-size: 40px; font-family: Montserrat; }
+          .subtitle { fill: white; font-size: 45px; font-family: Montserrat; }
           .price { fill: white; font-size: 150px; font-family: Times New Roman; }
         </style>
-        <text x="50%" y="320" text-anchor="middle" class="title">${district}</text>
-        <text x="50%" y="380" text-anchor="middle" class="subtitle">${location}</text>
+        <text x="50%" y="330" text-anchor="middle" class="title">${district}</text>
+        <text x="50%" y="385" text-anchor="middle" class="subtitle">${location}</text>
         <text x="50%" y="910" text-anchor="middle" class="subtitle">${rooms}</text>
-        <text x="50%" y="1050" text-anchor="middle" class="price">${price}</text>
+        <text x="50%" y="1100" text-anchor="middle" class="price">${price}</text>
       </svg>`
     );
 
