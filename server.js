@@ -45,7 +45,7 @@ app.post('/generate', upload.single('image'), async (req, res) => {
       `<svg width="${width}" height="${height}">
         <style>
           .title { fill: white; font-size: 100px; font-family: Times New Roman; }
-          .subtitle { fill: white; font-size: 45px; font-family: Montserrat; }
+          .subtitle { fill: white; font-size: 45px; font-family: Century Gothic; }
           .price { fill: white; font-size: 160px; font-family: Times New Roman; }
         </style>
         <text x="50%" y="330" text-anchor="middle" class="title">${district}</text>
