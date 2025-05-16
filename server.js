@@ -44,7 +44,7 @@ app.post('/generate', upload.single('image'), async (req, res) => {
     const textOverlay = Buffer.from(
       `<svg width="${width}" height="${height}">
         <style>
-          .title { fill: white; font-size: 70px; font-family: Garamond; }
+          .title { fill: white; font-size: 70px; font-family: Garamond Regular 400; }
           .subtitle { fill: white; font-size: 30px; font-family: Montserrat; }
           .price { fill: white; font-size: 130px; font-family: Garamond; }
         </style>
